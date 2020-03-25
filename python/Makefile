@@ -29,7 +29,7 @@ DOCKER_REGISTRY          ?=
 DOCKER_REPOSITORY        ?=
 DOCKER_BUILD_ARGS        ?=
 DOCKER_TAG               ?= ${VERSION}
-ADAPTER_IMAGENAME        := ${DOCKER_REGISTRY}${DOCKER_REPOSITORY}voltha-openonu-adapter:${DOCKER_TAG}
+ADAPTER_IMAGENAME        := rohan040496/voltha-openonu-adapter:1
 TYPE                     ?= minimal
 
 ## Docker labels. Only set ref and commit date if committed
